@@ -1,0 +1,85 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_509107562_2000133320009280346_351827.jpg") no-repeat top left; */
+}
+.center-content {
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+}
+.inline-links {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+.img-link {
+    margin: 10px auto;
+    display: block;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 15px;
+}
+.img-link:hover {
+    padding: 12px;
+    transition: 0.5s;
+}
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+a:hover {
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.back-link {
+    background-color: yellowgreen;
+    border-radius: 205px;
+}
+.img-link-heading {
+    margin: 10px auto;
+    display: block;
+    width: 35vh;
+    height: 35vh;
+    border-radius: 15px;
+}
+article {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    margin: 50px 0 10px;
+    text-align: center;
+    font-size: 30px;
+}
+p {
+    width: 65%;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+.block-list {
+    list-style: none;
+    padding: 5px;
+    font-weight: bold;
+}
+h2 {
+    margin: 0 0 15px;
+}
+.steps-mt15 {
+    margin-top: 15px;
+}
+article {
+    border: solid 3px royalblue;
+    border-radius: 15px;
+    background-color: royalblue;
+    color: white;
+    margin: 50px auto;
+}
+hr {
+    width: 70%;
+    height: 7%;
+    margin: 15px auto 15px;
+}
