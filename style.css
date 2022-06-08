@@ -1,6 +1,5 @@
-body {
+.center-content {
     background-color: rgb(230, 230, 230);
-    margin: 10px 10px;
     text-align: center;
     font-family: sans-serif;
 }
@@ -28,4 +27,15 @@ a {
 a:hover {
     color: yellowgreen;
     transition: 0.3s;
+}
+.back-link {
+    background-color: yellowgreen;
+    border-radius: 205px;
+}
+.img-link-heading {
+    margin: 10px auto;
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
 }
