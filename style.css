@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 2px solid red;
 }
 .center-content {
     background-color: rgb(230, 230, 230);
@@ -12,13 +11,13 @@
 .inline-links {
     display: inline-block;
     list-style: none;
-    padding: 12px;
+    padding: 15px;
 }
 .img-link {
     margin: 10px auto;
     display: block;
-    width: 170px;
-    height: 170px;
+    width: 15vh;
+    height: 15vh;
     border-radius: 15px;
 }
 .img-link:hover {
@@ -31,7 +30,7 @@ a {
 }
 a:hover {
     font-size: 18px;
-    color: yellowgreen;
+    font-weight: 700;
     transition: 0.3s;
 }
 .back-link {
@@ -41,7 +40,45 @@ a:hover {
 .img-link-heading {
     margin: 10px auto;
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 35vh;
+    height: 35vh;
     border-radius: 15px;
+}
+article {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    margin: 50px 0 10px;
+    text-align: center;
+    font-size: 30px;
+}
+p {
+    width: 65%;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+.block-list {
+    list-style: none;
+    padding: 5px;
+    font-weight: bold;
+}
+h2 {
+    margin: 0 0 15px;
+}
+.steps-mt15 {
+    margin-top: 15px;
+}
+article {
+    border: solid 3px royalblue;
+    border-radius: 15px;
+    background-color: royalblue;
+    color: white;
+    margin: 50px auto;
+}
+hr {
+    width: 70%;
+    height: 7%;
+    margin: 15px auto 15px;
 }
