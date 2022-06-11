@@ -1,7 +1,13 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 2px solid red;
+}
 .center-content {
     background-color: rgb(230, 230, 230);
     text-align: center;
-    font-family: sans-serif;
 }
 .inline-links {
     display: inline-block;
@@ -16,8 +22,7 @@
     border-radius: 15px;
 }
 .img-link:hover {
-    width: 160px;
-    height: 160px;
+    padding: 12px;
     transition: 0.5s;
 }
 a {
@@ -25,6 +30,7 @@ a {
     color: royalblue;
 }
 a:hover {
+    font-size: 18px;
     color: yellowgreen;
     transition: 0.3s;
 }
